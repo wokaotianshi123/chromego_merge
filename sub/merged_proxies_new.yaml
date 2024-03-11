@@ -190,7 +190,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
-- name: United States_None_vmess_012
+- name: None_None_vmess_012
   type: vmess
   server: yh1.dtku41.xyz
   port: 8080
@@ -235,7 +235,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
     headers:
       host: championship-bidding-oxygen-brochure.trycloudflare.com
-- name: None_None_vmess_015
+- name: United States_None_vmess_015
   type: vmess
   server: yh2.dtku41.xyz
   port: 8080
@@ -547,7 +547,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: None_None_vmess_57
+- name: United States_None_vmess_57
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -592,7 +592,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: None_None_vmess_510
+- name: United States_None_vmess_510
   type: vmess
   server: yh2.freeh1.xyz
   port: 8080
@@ -847,10 +847,10 @@ proxy-groups:
   - United States_None_vmess_09
   - None_None_vmess_010
   - None_None_vmess_011
-  - United States_None_vmess_012
+  - None_None_vmess_012
   - None_None_vmess_013
   - None_None_vmess_014
-  - None_None_vmess_015
+  - United States_None_vmess_015
   - None_None_vmess_016
   - None_None_vmess_11
   - None_None_vmess_12
@@ -871,10 +871,10 @@ proxy-groups:
   - None_None_vmess_54
   - None_None_vmess_55
   - None_None_vmess_56
-  - None_None_vmess_57
+  - United States_None_vmess_57
   - None_None_vmess_58
   - United States_None_vmess_59
-  - None_None_vmess_510
+  - United States_None_vmess_510
   - None_None_vmess_511
   - United States_None_vmess_512
   - United States_None_vmess_513
@@ -910,10 +910,10 @@ proxy-groups:
   - United States_None_vmess_09
   - None_None_vmess_010
   - None_None_vmess_011
-  - United States_None_vmess_012
+  - None_None_vmess_012
   - None_None_vmess_013
   - None_None_vmess_014
-  - None_None_vmess_015
+  - United States_None_vmess_015
   - None_None_vmess_016
   - None_None_vmess_11
   - None_None_vmess_12
@@ -934,10 +934,10 @@ proxy-groups:
   - None_None_vmess_54
   - None_None_vmess_55
   - None_None_vmess_56
-  - None_None_vmess_57
+  - United States_None_vmess_57
   - None_None_vmess_58
   - United States_None_vmess_59
-  - None_None_vmess_510
+  - United States_None_vmess_510
   - None_None_vmess_511
   - United States_None_vmess_512
   - United States_None_vmess_513
