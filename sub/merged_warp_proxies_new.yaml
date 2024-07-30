@@ -1454,7 +1454,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_095
+- name: United States_None_vmess_095
   type: vmess
   server: ip.sb
   port: 2086
@@ -2609,7 +2609,7 @@ proxy-groups:
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
   - United States_None_vmess_094
-  - None_None_vmess_095
+  - United States_None_vmess_095
   - None_None_vmess_096
   - None_None_vmess_097
   - None_None_vmess_098
@@ -2778,7 +2778,7 @@ proxy-groups:
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
   - United States_None_vmess_094
-  - None_None_vmess_095
+  - United States_None_vmess_095
   - None_None_vmess_096
   - None_None_vmess_097
   - None_None_vmess_098
@@ -2947,7 +2947,7 @@ proxy-groups:
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
   - United States_None_vmess_094
-  - None_None_vmess_095
+  - United States_None_vmess_095
   - None_None_vmess_096
   - None_None_vmess_097
   - None_None_vmess_098
