@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_0100
+- name: None_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2935,7 +2935,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_194
+- name: United States_None_vmess_194
   type: vmess
   server: icook.tw
   port: 2086
@@ -6205,7 +6205,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_794
+- name: United States_None_vmess_794
   type: vmess
   server: icook.tw
   port: 2086
@@ -6220,7 +6220,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_795
+- name: None_None_vmess_795
   type: vmess
   server: ip.sb
   port: 2086
@@ -6280,7 +6280,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_799
+- name: United States_None_vmess_799
   type: vmess
   server: singapore.com
   port: 2086
@@ -7750,7 +7750,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_896
+- name: United States_None_vmess_896
   type: vmess
   server: japan.com
   port: 2086
@@ -7780,7 +7780,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_898
+- name: United States_None_vmess_898
   type: vmess
   server: russia.com
   port: 2086
@@ -7795,7 +7795,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_899
+- name: United States_None_vmess_899
   type: vmess
   server: singapore.com
   port: 2086
@@ -8093,7 +8093,7 @@ proxy-groups:
   - None_None_vmess_097
   - None_None_vmess_098
   - None_None_vmess_099
-  - United States_None_vmess_0100
+  - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -8188,7 +8188,7 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - None_None_vmess_194
+  - United States_None_vmess_194
   - None_None_vmess_195
   - United States_None_vmess_196
   - None_None_vmess_197
@@ -8406,12 +8406,12 @@ proxy-groups:
   - United States_San Francisco_vmess_791
   - None_None_vmess_792
   - Canada_Ottawa_vmess_793
-  - None_None_vmess_794
-  - United States_None_vmess_795
+  - United States_None_vmess_794
+  - None_None_vmess_795
   - None_None_vmess_796
   - None_None_vmess_797
   - United States_None_vmess_798
-  - None_None_vmess_799
+  - United States_None_vmess_799
   - None_None_vmess_7100
   - None_None_vmess_7101
   - None_None_vmess_81
@@ -8509,10 +8509,10 @@ proxy-groups:
   - Canada_Ottawa_vmess_893
   - United States_None_vmess_894
   - None_None_vmess_895
-  - None_None_vmess_896
+  - United States_None_vmess_896
   - None_None_vmess_897
-  - None_None_vmess_898
-  - None_None_vmess_899
+  - United States_None_vmess_898
+  - United States_None_vmess_899
   - None_None_vmess_8100
   - None_None_vmess_8101
   - None_None_vmess_91
@@ -8632,7 +8632,7 @@ proxy-groups:
   - None_None_vmess_097
   - None_None_vmess_098
   - None_None_vmess_099
-  - United States_None_vmess_0100
+  - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -8727,7 +8727,7 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - None_None_vmess_194
+  - United States_None_vmess_194
   - None_None_vmess_195
   - United States_None_vmess_196
   - None_None_vmess_197
@@ -8945,12 +8945,12 @@ proxy-groups:
   - United States_San Francisco_vmess_791
   - None_None_vmess_792
   - Canada_Ottawa_vmess_793
-  - None_None_vmess_794
-  - United States_None_vmess_795
+  - United States_None_vmess_794
+  - None_None_vmess_795
   - None_None_vmess_796
   - None_None_vmess_797
   - United States_None_vmess_798
-  - None_None_vmess_799
+  - United States_None_vmess_799
   - None_None_vmess_7100
   - None_None_vmess_7101
   - None_None_vmess_81
@@ -9048,10 +9048,10 @@ proxy-groups:
   - Canada_Ottawa_vmess_893
   - United States_None_vmess_894
   - None_None_vmess_895
-  - None_None_vmess_896
+  - United States_None_vmess_896
   - None_None_vmess_897
-  - None_None_vmess_898
-  - None_None_vmess_899
+  - United States_None_vmess_898
+  - United States_None_vmess_899
   - None_None_vmess_8100
   - None_None_vmess_8101
   - None_None_vmess_91
