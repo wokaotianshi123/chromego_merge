@@ -1480,7 +1480,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip13.6016725.xyz
-- name: None_None_vmess_098
+- name: United States_None_vmess_098
   type: vmess
   server: russia.com
   port: 2095
@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip13.6016725.xyz
-- name: United States_None_vmess_0100
+- name: None_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2095
@@ -3007,7 +3007,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip17.6929198.xyz
-- name: None_None_vmess_294
+- name: United States_None_vmess_294
   type: vmess
   server: icook.tw
   port: 2082
@@ -3037,7 +3037,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip17.6929198.xyz
-- name: None_None_vmess_296
+- name: United States_None_vmess_296
   type: vmess
   server: japan.com
   port: 2082
@@ -3052,7 +3052,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip17.6929198.xyz
-- name: United States_None_vmess_297
+- name: None_None_vmess_297
   type: vmess
   server: malaysia.com
   port: 2082
@@ -3067,7 +3067,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip17.6929198.xyz
-- name: United States_None_vmess_298
+- name: None_None_vmess_298
   type: vmess
   server: russia.com
   port: 2082
@@ -3082,7 +3082,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip17.6929198.xyz
-- name: United States_None_vmess_299
+- name: None_None_vmess_299
   type: vmess
   server: singapore.com
   port: 2082
@@ -3097,7 +3097,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip17.6929198.xyz
-- name: United States_None_vmess_2100
+- name: None_None_vmess_2100
   type: vmess
   server: skk.moe
   port: 2082
@@ -3463,10 +3463,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: The Netherlands_Amsterdam_hy2_1
+- name: Russia_Moscow_hy2_1
   type: hysteria2
-  server: 163.172.220.28
-  port: 11622
+  server: 185.22.152.93
+  port: 47382
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -3590,9 +3590,9 @@ proxy-groups:
   - United States_None_vmess_095
   - None_None_vmess_096
   - None_None_vmess_097
-  - None_None_vmess_098
+  - United States_None_vmess_098
   - None_None_vmess_099
-  - United States_None_vmess_0100
+  - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -3691,13 +3691,13 @@ proxy-groups:
   - United States_San Francisco_vmess_291
   - None_None_vmess_292
   - Canada_Ottawa_vmess_293
-  - None_None_vmess_294
+  - United States_None_vmess_294
   - None_None_vmess_295
-  - None_None_vmess_296
-  - United States_None_vmess_297
-  - United States_None_vmess_298
-  - United States_None_vmess_299
-  - United States_None_vmess_2100
+  - United States_None_vmess_296
+  - None_None_vmess_297
+  - None_None_vmess_298
+  - None_None_vmess_299
+  - None_None_vmess_2100
   - None_None_vmess_2101
   - None_None_vmess_31
   - None_None_vmess_32
@@ -3720,7 +3720,7 @@ proxy-groups:
   - Russia_Moscow_hy_2
   - Russia_Moscow_hy_3
   - Russia_Moscow_hy2_0
-  - The Netherlands_Amsterdam_hy2_1
+  - Russia_Moscow_hy2_1
   - Russia_Moscow_hy2_2
   - Russia_Moscow_hy2_3
 - name: 自动选择
@@ -3826,9 +3826,9 @@ proxy-groups:
   - United States_None_vmess_095
   - None_None_vmess_096
   - None_None_vmess_097
-  - None_None_vmess_098
+  - United States_None_vmess_098
   - None_None_vmess_099
-  - United States_None_vmess_0100
+  - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -3927,13 +3927,13 @@ proxy-groups:
   - United States_San Francisco_vmess_291
   - None_None_vmess_292
   - Canada_Ottawa_vmess_293
-  - None_None_vmess_294
+  - United States_None_vmess_294
   - None_None_vmess_295
-  - None_None_vmess_296
-  - United States_None_vmess_297
-  - United States_None_vmess_298
-  - United States_None_vmess_299
-  - United States_None_vmess_2100
+  - United States_None_vmess_296
+  - None_None_vmess_297
+  - None_None_vmess_298
+  - None_None_vmess_299
+  - None_None_vmess_2100
   - None_None_vmess_2101
   - None_None_vmess_31
   - None_None_vmess_32
@@ -3956,7 +3956,7 @@ proxy-groups:
   - Russia_Moscow_hy_2
   - Russia_Moscow_hy_3
   - Russia_Moscow_hy2_0
-  - The Netherlands_Amsterdam_hy2_1
+  - Russia_Moscow_hy2_1
   - Russia_Moscow_hy2_2
   - Russia_Moscow_hy2_3
 rules:
