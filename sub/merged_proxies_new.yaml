@@ -410,7 +410,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: None_None_trojan_1025
+- name: United States_None_trojan_1025
   network: ws
   password: ttfang
   port: 2096
@@ -780,7 +780,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: None_None_trojan_1135
+- name: United States_None_trojan_1135
   network: ws
   password: ttfang
   port: 2096
@@ -963,7 +963,7 @@ proxy-groups:
   - United States_Ashburn_trojan_1022
   - Russia_None_trojan_1023
   - United States_None_trojan_1024
-  - None_None_trojan_1025
+  - United States_None_trojan_1025
   - United States_None_trojan_1026
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -999,7 +999,7 @@ proxy-groups:
   - United States_Ashburn_trojan_1132
   - Russia_None_trojan_1133
   - United States_None_trojan_1134
-  - None_None_trojan_1135
+  - United States_None_trojan_1135
   - United States_None_trojan_1136
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
@@ -1052,7 +1052,7 @@ proxy-groups:
   - United States_Ashburn_trojan_1022
   - Russia_None_trojan_1023
   - United States_None_trojan_1024
-  - None_None_trojan_1025
+  - United States_None_trojan_1025
   - United States_None_trojan_1026
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -1088,7 +1088,7 @@ proxy-groups:
   - United States_Ashburn_trojan_1132
   - Russia_None_trojan_1133
   - United States_None_trojan_1134
-  - None_None_trojan_1135
+  - United States_None_trojan_1135
   - United States_None_trojan_1136
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
