@@ -240,7 +240,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: China_None_ss_1010
+  name: China_Guangzhou_ss_1010
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -306,7 +306,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: United States_None_vmess_1017
+  name: None_None_vmess_1017
   network: ws
   port: '443'
   server: ssssssssssssfffffffgh.2032.pp.ua
@@ -321,7 +321,7 @@ proxies:
       Host: ssssssssssssfffffffgh.2032.pp.ua
     path: /6We3U9Df1WGxgFnoFPw1
 - cipher: rc4-md5
-  name: China_None_ss_1018
+  name: China_Guangzhou_ss_1018
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -606,7 +606,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: China_None_ss_1120
+  name: China_Guangzhou_ss_1120
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -672,7 +672,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: United States_None_vmess_1127
+  name: None_None_vmess_1127
   network: ws
   port: '443'
   server: ssssssssssssfffffffgh.2032.pp.ua
@@ -687,7 +687,7 @@ proxies:
       Host: ssssssssssssfffffffgh.2032.pp.ua
     path: /6We3U9Df1WGxgFnoFPw1
 - cipher: rc4-md5
-  name: China_None_ss_1128
+  name: China_Guangzhou_ss_1128
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -940,15 +940,15 @@ proxy-groups:
   - Taiwan_Douliu_ss_107
   - Taiwan_Chiayi City_ss_108
   - Taiwan_Taichung_ss_109
-  - China_None_ss_1010
+  - China_Guangzhou_ss_1010
   - Japan_Tokyo_ss_1011
   - Hong Kong_None_trojan_1012
   - Hong Kong_None_trojan_1013
   - Hong Kong_None_trojan_1014
   - Hong Kong_None_trojan_1015
   - Singapore_Singapore_ss_1016
-  - United States_None_vmess_1017
-  - China_None_ss_1018
+  - None_None_vmess_1017
+  - China_Guangzhou_ss_1018
   - Hong Kong_None_trojan_1019
   - Hong Kong_None_trojan_1020
   - Hong Kong_Hong Kong_vmess_1021
@@ -977,15 +977,15 @@ proxy-groups:
   - Taiwan_Douliu_ss_1117
   - Taiwan_Chiayi City_ss_1118
   - Taiwan_Taichung_ss_1119
-  - China_None_ss_1120
+  - China_Guangzhou_ss_1120
   - Japan_Tokyo_ss_1121
   - Hong Kong_None_trojan_1122
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_None_trojan_1125
   - Singapore_Singapore_ss_1126
-  - United States_None_vmess_1127
-  - China_None_ss_1128
+  - None_None_vmess_1127
+  - China_Guangzhou_ss_1128
   - Hong Kong_None_trojan_1129
   - Hong Kong_None_trojan_1130
   - Hong Kong_Hong Kong_vmess_1131
@@ -1031,15 +1031,15 @@ proxy-groups:
   - Taiwan_Douliu_ss_107
   - Taiwan_Chiayi City_ss_108
   - Taiwan_Taichung_ss_109
-  - China_None_ss_1010
+  - China_Guangzhou_ss_1010
   - Japan_Tokyo_ss_1011
   - Hong Kong_None_trojan_1012
   - Hong Kong_None_trojan_1013
   - Hong Kong_None_trojan_1014
   - Hong Kong_None_trojan_1015
   - Singapore_Singapore_ss_1016
-  - United States_None_vmess_1017
-  - China_None_ss_1018
+  - None_None_vmess_1017
+  - China_Guangzhou_ss_1018
   - Hong Kong_None_trojan_1019
   - Hong Kong_None_trojan_1020
   - Hong Kong_Hong Kong_vmess_1021
@@ -1068,15 +1068,15 @@ proxy-groups:
   - Taiwan_Douliu_ss_1117
   - Taiwan_Chiayi City_ss_1118
   - Taiwan_Taichung_ss_1119
-  - China_None_ss_1120
+  - China_Guangzhou_ss_1120
   - Japan_Tokyo_ss_1121
   - Hong Kong_None_trojan_1122
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_None_trojan_1125
   - Singapore_Singapore_ss_1126
-  - United States_None_vmess_1127
-  - China_None_ss_1128
+  - None_None_vmess_1127
+  - China_Guangzhou_ss_1128
   - Hong Kong_None_trojan_1129
   - Hong Kong_None_trojan_1130
   - Hong Kong_Hong Kong_vmess_1131
