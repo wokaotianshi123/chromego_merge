@@ -187,7 +187,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_104
+  name: Hong Kong_Sham Shui Po_vmess_104
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -1316,7 +1316,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1114
+  name: Hong Kong_Sham Shui Po_vmess_1114
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -2450,7 +2450,7 @@ proxy-groups:
   - Sweden_Stockholm_ss_101
   - China_None_vmess_102
   - China_None_ss_103
-  - Hong Kong_Central_vmess_104
+  - Hong Kong_Sham Shui Po_vmess_104
   - Hong Kong_Sha Tin Wai_trojan_105
   - Hong Kong_None_ss_106
   - Hong Kong_None_trojan_107
@@ -2546,7 +2546,7 @@ proxy-groups:
   - Sweden_Stockholm_ss_1111
   - China_None_vmess_1112
   - China_None_ss_1113
-  - Hong Kong_Central_vmess_1114
+  - Hong Kong_Sham Shui Po_vmess_1114
   - Hong Kong_Sha Tin Wai_trojan_1115
   - Hong Kong_None_ss_1116
   - Hong Kong_None_trojan_1117
@@ -2658,7 +2658,7 @@ proxy-groups:
   - Sweden_Stockholm_ss_101
   - China_None_vmess_102
   - China_None_ss_103
-  - Hong Kong_Central_vmess_104
+  - Hong Kong_Sham Shui Po_vmess_104
   - Hong Kong_Sha Tin Wai_trojan_105
   - Hong Kong_None_ss_106
   - Hong Kong_None_trojan_107
@@ -2754,7 +2754,7 @@ proxy-groups:
   - Sweden_Stockholm_ss_1111
   - China_None_vmess_1112
   - China_None_ss_1113
-  - Hong Kong_Central_vmess_1114
+  - Hong Kong_Sham Shui Po_vmess_1114
   - Hong Kong_Sha Tin Wai_trojan_1115
   - Hong Kong_None_ss_1116
   - Hong Kong_None_trojan_1117
