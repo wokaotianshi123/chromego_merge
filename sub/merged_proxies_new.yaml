@@ -25,6 +25,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- name: Unknown_hysteria2_01
+  type: hysteria2
+  server: 2001:bc8:32d7:302::11
+  port: 20088
+  password: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Unknown_hysteria2_11
   type: hysteria2
   server: 2001:bc8:32d7:302::11
@@ -62,6 +74,31 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: Unknown_tuic_41
+  server: 2001:bc8:32d7:302::16
+  port: 34997
+  type: tuic
+  uuid: 8687b6e0-ef24-4cd2-bcd2-02d3732bf554
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_hysteria2_51
+  type: hysteria2
+  server: 2001:bc8:32d7:302::17
+  port: 20088
+  password: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Unknown_hysteria_61
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -86,6 +123,18 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: France_Paris_hysteria_81
+  type: hysteria
+  server: 62.210.127.217
+  port: 50011
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Unknown_hysteria_91
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -98,6 +147,293 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- cipher: aes-256-cfb
+  name: Germany_Frankfurt am Main_ss_101
+  password: amazonskr05
+  port: 443
+  server: 18.159.61.225
+  tfo: false
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: China_None_vmess_102
+  network: ws
+  port: '30809'
+  server: v9.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- cipher: aes-256-gcm
+  name: China_None_ss_103
+  password: 2b5fad3874e5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /aqwshiog
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 156.251.179.135
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: Hong Kong_None_vmess_104
+  port: 44601
+  server: 43.247.135.86
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
+- name: Japan_None_trojan_105
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 202.181.103.246
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: United States_Los Angeles_ss_106
+  password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
+  port: 40000
+  server: hk.fastsoonlink.com
+  tfo: false
+  type: ss
+- name: Japan_Tokyo_trojan_107
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 160.16.236.32
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: China_None_ss_108
+  password: e4469310-00fc-4527-8afa-71788b3bcef7
+  port: 35602
+  server: gw.liangyuandianwan.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: Taiwan_Taipei City_vmess_109
+  port: 49795
+  server: 103.236.227.7
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e
+- cipher: rc4-md5
+  name: China_None_ss_1010
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202509121565513-Aja8hFXVWh.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: Japan_Tokyo_ss_1011
+  password: 8808e9f11454
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp5v1.lingjfjkm002.com
+    mode: websocket
+    mux: false
+    path: /nvcnjrmkggoy
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 137.220.142.139
+  tfo: false
+  type: ss
+- name: Japan_Tokyo_trojan_1012
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1802
+  server: 160.16.196.59
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: Japan_Tokyo_trojan_1013
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1924
+  server: 160.16.72.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: Japan_Tokyo_trojan_1014
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 2045
+  server: 160.16.130.66
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: Japan_Tokyo_trojan_1015
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 4397
+  server: 160.16.117.182
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: China_None_vmess_1016
+  network: ws
+  port: '30839'
+  server: v39.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- cipher: rc4-md5
+  name: China_None_ss_1017
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202509121565513-Aja8hFXVWh.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- name: Japan_Tokyo_trojan_1018
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1700
+  server: 153.121.45.139
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: Japan_Tokyo_trojan_1019
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 3294
+  server: 160.16.72.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: aes-256-cfb
+  name: Vietnam_None_ss_1020
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.28
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: Hong Kong_None_vmess_1021
+  network: tcp
+  port: '44601'
+  server: 43.247.135.86
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
+- alterId: 0
+  cipher: auto
+  name: Hong Kong_Hong Kong_vmess_1022
+  network: kcp
+  port: '28590'
+  server: 47.239.183.87
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d75481c7-b5c8-40a9-811a-02b709e74816
+- alterId: 0
+  cipher: auto
+  name: Taiwan_Taipei City_vmess_1023
+  network: tcp
+  port: '49795'
+  server: 103.236.227.7
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e
+- alterId: 0
+  cipher: auto
+  name: Japan_Tokyo_vmess_1024
+  network: kcp
+  port: '40916'
+  server: 8.209.200.91
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: af07bf42-c942-4085-a7cb-80f9bed88776
+- name: United States_Los Angeles_trojan_1025
+  password: 0C3YaEDx46ODTFTcaF8lXlZ3zeqSlF33wZagexzRjIyODa8RDwp8XSCO93ygCSYcSYABA
+  port: 18332
+  server: blength.appagent.net
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: United States_Los Angeles_trojan_1026
+  password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D
+  port: 28333
+  server: connect.appagent.net
+  skip-cert-verify: true
+  sni: connect.appagent.net
+  type: trojan
+  udp: true
+- name: United States_Los Angeles_trojan_1027
+  password: CZC2eFReAwaON4nzF3zY7XC9nB3IqIaT3Eaa8S7D3B5Y3XuSEp8Z0ygl08S3SSxy6wDRC
+  port: 28332
+  server: blender.appagent.net
+  skip-cert-verify: true
+  sni: blender.appagent.net
+  type: trojan
+  udp: true
+- name: United States_Los Angeles_trojan_1028
+  password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D
+  port: 28333
+  server: connect.appagent.net
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: United States_Los Angeles_trojan_1029
+  password: OaFFcTDe9pSlez6x3SY8AARXwClzCRRDwSN8F3OqZAEYC0SE6F8gp3wCTCSTDYllcNceagCDD2C59S3
+  port: 28332
+  server: bolster.appagent.net
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: United States_Los Angeles_trojan_1030
+  password: Npgx9nO3OBaZF5yxARYl93lFX08TlR3waDla733az8SqXe3YS3zjESECSZpAw428a6SID
+  port: 443
+  server: metallic.isquirrel.net
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: United States_Los Angeles_trojan_1031
+  password: F9OKESxKjSDExSeaOw7XyINxDzaOZqeKxCeIczYYED8ewZ2Yl9AppAySO3XwFNy3lCaXDDCFnlACSB0
+  port: 28334
+  server: pricey.appagent.net
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_111
@@ -424,57 +760,20 @@ proxies:
   tls: false
   type: vmess
   uuid: af07bf42-c942-4085-a7cb-80f9bed88776
-- name: United States_Los Angeles_trojan_1135
-  password: 0C3YaEDx46ODTFTcaF8lXlZ3zeqSlF33wZagexzRjIyODa8RDwp8XSCO93ygCSYcSYABA
-  port: 18332
-  server: blength.appagent.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: United States_Los Angeles_trojan_1136
-  password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D
-  port: 28333
-  server: connect.appagent.net
+- name: The Netherlands_Amsterdam_hy_0
+  type: hysteria
+  server: 109.104.153.91
+  port: 37519
+  ports: 10000-20000
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
   skip-cert-verify: true
-  sni: connect.appagent.net
-  type: trojan
-  udp: true
-- name: United States_Los Angeles_trojan_1137
-  password: CZC2eFReAwaON4nzF3zY7XC9nB3IqIaT3Eaa8S7D3B5Y3XuSEp8Z0ygl08S3SSxy6wDRC
-  port: 28332
-  server: blender.appagent.net
-  skip-cert-verify: true
-  sni: blender.appagent.net
-  type: trojan
-  udp: true
-- name: United States_Los Angeles_trojan_1138
-  password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D
-  port: 28333
-  server: connect.appagent.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: United States_Los Angeles_trojan_1139
-  password: OaFFcTDe9pSlez6x3SY8AARXwClzCRRDwSN8F3OqZAEYC0SE6F8gp3wCTCSTDYllcNceagCDD2C59S3
-  port: 28332
-  server: bolster.appagent.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: United States_Los Angeles_trojan_1140
-  password: Npgx9nO3OBaZF5yxARYl93lFX08TlR3waDla733az8SqXe3YS3zjESECSZpAw428a6SID
-  port: 443
-  server: metallic.isquirrel.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: United States_Los Angeles_trojan_1141
-  password: F9OKESxKjSDExSeaOw7XyINxDzaOZqeKxCeIczYYED8ewZ2Yl9AppAySO3XwFNy3lCaXDDCFnlACSB0
-  port: 28334
-  server: pricey.appagent.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  alpn:
+  - h3
 - name: The Netherlands_Amsterdam_hy_1
   type: hysteria
   server: 109.104.153.91
@@ -517,6 +816,22 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: United States_Los Angeles_hy2_0
+  type: hysteria2
+  server: 104.168.10.176
+  port: 35205
+  password: dongtaiwang.com
+  fast-open: true
+  sni: apple.com
+  skip-cert-verify: true
+- name: United States_Los Angeles_hy2_1
+  type: hysteria2
+  server: 104.168.10.176
+  port: 35205
+  password: dongtaiwang.com
+  fast-open: true
+  sni: apple.com
+  skip-cert-verify: true
 - name: United States_Los Angeles_hy2_2
   type: hysteria2
   server: 104.168.10.176
@@ -547,18 +862,67 @@ proxies:
   reality-opts:
     public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
     short-id: ''
+- name: Unknown_reality_3
+  type: vless
+  server: 2001:bc8:32d7:302::13
+  port: 34324
+  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: dash.cloudflare.com
+  reality-opts:
+    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
+    short-id: ''
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
+  - Unknown_hysteria2_01
   - Unknown_hysteria2_11
   - Unknown_tuic_21
   - Unknown_hysteria2_31
+  - Unknown_tuic_41
+  - Unknown_hysteria2_51
   - Unknown_hysteria_61
   - France_Paris_hysteria_71
+  - France_Paris_hysteria_81
   - Unknown_hysteria_91
+  - Germany_Frankfurt am Main_ss_101
+  - China_None_vmess_102
+  - China_None_ss_103
+  - Hong Kong_None_vmess_104
+  - Japan_None_trojan_105
+  - United States_Los Angeles_ss_106
+  - Japan_Tokyo_trojan_107
+  - China_None_ss_108
+  - Taiwan_Taipei City_vmess_109
+  - China_None_ss_1010
+  - Japan_Tokyo_ss_1011
+  - Japan_Tokyo_trojan_1012
+  - Japan_Tokyo_trojan_1013
+  - Japan_Tokyo_trojan_1014
+  - Japan_Tokyo_trojan_1015
+  - China_None_vmess_1016
+  - China_None_ss_1017
+  - Japan_Tokyo_trojan_1018
+  - Japan_Tokyo_trojan_1019
+  - Vietnam_None_ss_1020
+  - Hong Kong_None_vmess_1021
+  - Hong Kong_Hong Kong_vmess_1022
+  - Taiwan_Taipei City_vmess_1023
+  - Japan_Tokyo_vmess_1024
+  - United States_Los Angeles_trojan_1025
+  - United States_Los Angeles_trojan_1026
+  - United States_Los Angeles_trojan_1027
+  - United States_Los Angeles_trojan_1028
+  - United States_Los Angeles_trojan_1029
+  - United States_Los Angeles_trojan_1030
+  - United States_Los Angeles_trojan_1031
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -593,31 +957,63 @@ proxy-groups:
   - Hong Kong_Hong Kong_vmess_1132
   - Taiwan_Taipei City_vmess_1133
   - Japan_Tokyo_vmess_1134
-  - United States_Los Angeles_trojan_1135
-  - United States_Los Angeles_trojan_1136
-  - United States_Los Angeles_trojan_1137
-  - United States_Los Angeles_trojan_1138
-  - United States_Los Angeles_trojan_1139
-  - United States_Los Angeles_trojan_1140
-  - United States_Los Angeles_trojan_1141
+  - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
   - The Netherlands_Amsterdam_hy_3
+  - United States_Los Angeles_hy2_0
+  - United States_Los Angeles_hy2_1
   - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - Unknown_reality_0
+  - Unknown_reality_3
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
+  - Unknown_hysteria2_01
   - Unknown_hysteria2_11
   - Unknown_tuic_21
   - Unknown_hysteria2_31
+  - Unknown_tuic_41
+  - Unknown_hysteria2_51
   - Unknown_hysteria_61
   - France_Paris_hysteria_71
+  - France_Paris_hysteria_81
   - Unknown_hysteria_91
+  - Germany_Frankfurt am Main_ss_101
+  - China_None_vmess_102
+  - China_None_ss_103
+  - Hong Kong_None_vmess_104
+  - Japan_None_trojan_105
+  - United States_Los Angeles_ss_106
+  - Japan_Tokyo_trojan_107
+  - China_None_ss_108
+  - Taiwan_Taipei City_vmess_109
+  - China_None_ss_1010
+  - Japan_Tokyo_ss_1011
+  - Japan_Tokyo_trojan_1012
+  - Japan_Tokyo_trojan_1013
+  - Japan_Tokyo_trojan_1014
+  - Japan_Tokyo_trojan_1015
+  - China_None_vmess_1016
+  - China_None_ss_1017
+  - Japan_Tokyo_trojan_1018
+  - Japan_Tokyo_trojan_1019
+  - Vietnam_None_ss_1020
+  - Hong Kong_None_vmess_1021
+  - Hong Kong_Hong Kong_vmess_1022
+  - Taiwan_Taipei City_vmess_1023
+  - Japan_Tokyo_vmess_1024
+  - United States_Los Angeles_trojan_1025
+  - United States_Los Angeles_trojan_1026
+  - United States_Los Angeles_trojan_1027
+  - United States_Los Angeles_trojan_1028
+  - United States_Los Angeles_trojan_1029
+  - United States_Los Angeles_trojan_1030
+  - United States_Los Angeles_trojan_1031
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -652,19 +1048,16 @@ proxy-groups:
   - Hong Kong_Hong Kong_vmess_1132
   - Taiwan_Taipei City_vmess_1133
   - Japan_Tokyo_vmess_1134
-  - United States_Los Angeles_trojan_1135
-  - United States_Los Angeles_trojan_1136
-  - United States_Los Angeles_trojan_1137
-  - United States_Los Angeles_trojan_1138
-  - United States_Los Angeles_trojan_1139
-  - United States_Los Angeles_trojan_1140
-  - United States_Los Angeles_trojan_1141
+  - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
   - The Netherlands_Amsterdam_hy_3
+  - United States_Los Angeles_hy2_0
+  - United States_Los Angeles_hy2_1
   - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - Unknown_reality_0
+  - Unknown_reality_3
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
