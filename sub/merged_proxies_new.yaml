@@ -552,7 +552,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: China_None_vmess_1120
+  name: China_Wuhan_vmess_1120
   network: ws
   port: '41315'
   server: a.lyazzz.online
@@ -737,38 +737,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy2_0
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_1
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_2
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_3
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -855,7 +823,7 @@ proxy-groups:
   - China_None_ss_1117
   - Japan_Tokyo_trojan_1118
   - Japan_Tokyo_trojan_1119
-  - China_None_vmess_1120
+  - China_Wuhan_vmess_1120
   - South Korea_None_ss_1121
   - Japan_Tokyo_trojan_1122
   - Japan_Tokyo_trojan_1123
@@ -873,10 +841,6 @@ proxy-groups:
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
   - The Netherlands_Amsterdam_hy_3
-  - United States_Los Angeles_hy2_0
-  - United States_Los Angeles_hy2_1
-  - United States_Los Angeles_hy2_2
-  - United States_Los Angeles_hy2_3
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -937,7 +901,7 @@ proxy-groups:
   - China_None_ss_1117
   - Japan_Tokyo_trojan_1118
   - Japan_Tokyo_trojan_1119
-  - China_None_vmess_1120
+  - China_Wuhan_vmess_1120
   - South Korea_None_ss_1121
   - Japan_Tokyo_trojan_1122
   - Japan_Tokyo_trojan_1123
@@ -955,10 +919,6 @@ proxy-groups:
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
   - The Netherlands_Amsterdam_hy_3
-  - United States_Los Angeles_hy2_0
-  - United States_Los Angeles_hy2_1
-  - United States_Los Angeles_hy2_2
-  - United States_Los Angeles_hy2_3
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
