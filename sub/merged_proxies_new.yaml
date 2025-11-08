@@ -559,6 +559,22 @@ proxies:
   tls: false
   type: vmess
   uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86
+- name: China_None_trojan_1129
+  password: dce3c42b-f259-4b18-b5c1-a42ebef4e732
+  port: 13007
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- name: Hong Kong_Central_trojan_1130
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  sni: 58.152.46.98
+  type: trojan
+  udp: true
 - name: The Netherlands_Amsterdam_hy_0
   type: hysteria
   server: 109.104.154.97
@@ -705,6 +721,8 @@ proxy-groups:
   - China_None_trojan_1126
   - Vietnam_None_ss_1127
   - China_None_vmess_1128
+  - China_None_trojan_1129
+  - Hong Kong_Central_trojan_1130
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
@@ -773,6 +791,8 @@ proxy-groups:
   - China_None_trojan_1126
   - Vietnam_None_ss_1127
   - China_None_vmess_1128
+  - China_None_trojan_1129
+  - Hong Kong_Central_trojan_1130
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
