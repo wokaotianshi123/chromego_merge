@@ -212,7 +212,7 @@ proxies:
   uuid: 22550b74-3ebf-49b5-ea36-3078b5d47ed9
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Aberdeen_vmess_108
+  name: Hong Kong_Central_vmess_108
   network: ws
   port: '80'
   server: a48b0e7b-t6ngg0-t8tsp0-1szmi.hk3.p5pv.com
@@ -539,7 +539,7 @@ proxies:
   uuid: 22550b74-3ebf-49b5-ea36-3078b5d47ed9
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Aberdeen_vmess_1118
+  name: Hong Kong_Central_vmess_1118
   network: ws
   port: '80'
   server: a48b0e7b-t6ngg0-t8tsp0-1szmi.hk3.p5pv.com
@@ -762,7 +762,7 @@ proxy-groups:
   - Hong Kong_Sai Wan_trojan_105
   - Hong Kong_Central_trojan_106
   - Hong Kong_Hong Kong_vmess_107
-  - Hong Kong_Aberdeen_vmess_108
+  - Hong Kong_Central_vmess_108
   - Taiwan_Taichung_ss_109
   - Japan_Tokyo_trojan_1010
   - Japan_Tokyo_trojan_1011
@@ -797,7 +797,7 @@ proxy-groups:
   - Hong Kong_Sai Wan_trojan_1115
   - Hong Kong_Central_trojan_1116
   - Hong Kong_Hong Kong_vmess_1117
-  - Hong Kong_Aberdeen_vmess_1118
+  - Hong Kong_Central_vmess_1118
   - Taiwan_Taichung_ss_1119
   - Japan_Tokyo_trojan_1120
   - Japan_Tokyo_trojan_1121
@@ -840,7 +840,7 @@ proxy-groups:
   - Hong Kong_Sai Wan_trojan_105
   - Hong Kong_Central_trojan_106
   - Hong Kong_Hong Kong_vmess_107
-  - Hong Kong_Aberdeen_vmess_108
+  - Hong Kong_Central_vmess_108
   - Taiwan_Taichung_ss_109
   - Japan_Tokyo_trojan_1010
   - Japan_Tokyo_trojan_1011
@@ -875,7 +875,7 @@ proxy-groups:
   - Hong Kong_Sai Wan_trojan_1115
   - Hong Kong_Central_trojan_1116
   - Hong Kong_Hong Kong_vmess_1117
-  - Hong Kong_Aberdeen_vmess_1118
+  - Hong Kong_Central_vmess_1118
   - Taiwan_Taichung_ss_1119
   - Japan_Tokyo_trojan_1120
   - Japan_Tokyo_trojan_1121
