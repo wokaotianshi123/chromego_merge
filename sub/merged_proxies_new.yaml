@@ -146,14 +146,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: India_Mumbai_trojan_1016
-  password: M7v%w11Se*
-  port: 443
-  server: amanm.wsone.icu
-  skip-cert-verify: true
-  sni: amanm.wsone.icu
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_111
@@ -311,7 +303,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%25252Fripaojiedian
   type: trojan
-- name: United States_San Francisco_trojan_1120
+- name: None_None_trojan_1120
   network: ws
   password: 056b39f5-ffb3-4145-8f75-2ffdeb53cb48
   port: 2087
@@ -323,7 +315,7 @@ proxies:
     headers:
       Host: 17698512164336.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_1121
+- name: United States_None_trojan_1121
   network: ws
   password: 056b39f5-ffb3-4145-8f75-2ffdeb53cb48
   port: 2083
@@ -335,21 +327,21 @@ proxies:
     headers:
       Host: 17698512161457.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_None_trojan_1122
+- name: None_None_trojan_1122
   password: 5f4142b3-b20f-43f1-bc09-41c0e00662f9
   port: 31102
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: United States_None_trojan_1123
+- name: None_None_trojan_1123
   password: 14f7a5c0-e8ae-40a7-884c-41555730e3b6
   port: 31101
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: United States_None_trojan_1124
+- name: None_None_trojan_1124
   password: 4a14fe06-1b03-4d93-a360-1e33ae972896
   port: 31102
   server: green2.cdntencentmusic.com
@@ -363,7 +355,7 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: United States_None_trojan_1126
+- name: None_None_trojan_1126
   password: 21f085a7-ace6-495e-b550-281c8bfde899
   port: 31102
   server: green2.cdntencentmusic.com
@@ -377,7 +369,7 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: None_None_trojan_1128
+- name: United States_None_trojan_1128
   password: 397b6abf-c044-4fa7-9b70-269d9ada828d
   port: 31102
   server: green2.cdntencentmusic.com
@@ -398,7 +390,7 @@ proxies:
   skip-cert-verify: true
   sni: xiaozhu1.kkieo555.cn
   type: trojan
-- name: United States_None_trojan_1131
+- name: None_None_trojan_1131
   password: 3692ef88-4d16-4848-a01b-b646f9448b11
   port: 35501
   server: green2.cdntencentmusic.com
@@ -669,14 +661,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: India_Mumbai_trojan_1163
-  password: M7v%w11Se*
-  port: 443
-  server: amanm.wsone.icu
-  skip-cert-verify: true
-  sni: amanm.wsone.icu
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -698,7 +682,6 @@ proxy-groups:
   - Singapore_Singapore_trojan_1013
   - Japan_Tokyo_trojan_1014
   - Hong Kong_Central_vmess_1015
-  - India_Mumbai_trojan_1016
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -718,18 +701,18 @@ proxy-groups:
   - India_None_vmess_1117
   - Hong Kong_Tsim Sha Tsui_trojan_1118
   - Hong Kong_Tsim Sha Tsui_trojan_1119
-  - United States_San Francisco_trojan_1120
-  - None_None_trojan_1121
-  - United States_None_trojan_1122
-  - United States_None_trojan_1123
-  - United States_None_trojan_1124
+  - None_None_trojan_1120
+  - United States_None_trojan_1121
+  - None_None_trojan_1122
+  - None_None_trojan_1123
+  - None_None_trojan_1124
   - None_None_trojan_1125
-  - United States_None_trojan_1126
+  - None_None_trojan_1126
   - None_None_trojan_1127
-  - None_None_trojan_1128
+  - United States_None_trojan_1128
   - China_None_trojan_1129
   - China_None_trojan_1130
-  - United States_None_trojan_1131
+  - None_None_trojan_1131
   - China_None_trojan_1132
   - China_None_trojan_1133
   - Seychelles_None_vmess_1134
@@ -761,7 +744,6 @@ proxy-groups:
   - Singapore_Singapore_trojan_1160
   - Japan_Tokyo_trojan_1161
   - Hong Kong_Central_vmess_1162
-  - India_Mumbai_trojan_1163
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -783,7 +765,6 @@ proxy-groups:
   - Singapore_Singapore_trojan_1013
   - Japan_Tokyo_trojan_1014
   - Hong Kong_Central_vmess_1015
-  - India_Mumbai_trojan_1016
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -803,18 +784,18 @@ proxy-groups:
   - India_None_vmess_1117
   - Hong Kong_Tsim Sha Tsui_trojan_1118
   - Hong Kong_Tsim Sha Tsui_trojan_1119
-  - United States_San Francisco_trojan_1120
-  - None_None_trojan_1121
-  - United States_None_trojan_1122
-  - United States_None_trojan_1123
-  - United States_None_trojan_1124
+  - None_None_trojan_1120
+  - United States_None_trojan_1121
+  - None_None_trojan_1122
+  - None_None_trojan_1123
+  - None_None_trojan_1124
   - None_None_trojan_1125
-  - United States_None_trojan_1126
+  - None_None_trojan_1126
   - None_None_trojan_1127
-  - None_None_trojan_1128
+  - United States_None_trojan_1128
   - China_None_trojan_1129
   - China_None_trojan_1130
-  - United States_None_trojan_1131
+  - None_None_trojan_1131
   - China_None_trojan_1132
   - China_None_trojan_1133
   - Seychelles_None_vmess_1134
@@ -846,7 +827,6 @@ proxy-groups:
   - Singapore_Singapore_trojan_1160
   - Japan_Tokyo_trojan_1161
   - Hong Kong_Central_vmess_1162
-  - India_Mumbai_trojan_1163
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
