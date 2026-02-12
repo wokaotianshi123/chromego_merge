@@ -426,7 +426,7 @@ proxies:
     headers:
       Host: gtm1.ktmwan.net
     path: /
-- name: United States_San Francisco_trojan_1129
+- name: None_None_trojan_1129
   network: ws
   password: 3e3df21c-9db1-4df0-9c52-60684afae25f
   port: 2087
@@ -450,7 +450,7 @@ proxies:
     headers:
       Host: 17708034069150.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_San Francisco_trojan_1131
+- name: None_None_trojan_1131
   network: ws
   password: 3e3df21c-9db1-4df0-9c52-60684afae25f
   port: 2087
@@ -498,7 +498,7 @@ proxies:
     headers:
       Host: 17708034063604.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_San Francisco_trojan_1135
+- name: None_None_trojan_1135
   network: ws
   password: 3e3df21c-9db1-4df0-9c52-60684afae25f
   port: 2053
@@ -654,7 +654,7 @@ proxies:
     headers:
       Host: 17708034069318.206356.xyz
     path: '%2Fdmusicmuaawe'
-- name: None_None_trojan_1148
+- name: United States_None_trojan_1148
   network: ws
   password: 3e3df21c-9db1-4df0-9c52-60684afae25f
   port: 2096
@@ -666,7 +666,7 @@ proxies:
     headers:
       Host: 17708034061553.206352.xyz
     path: '%2Fagraeabtegrrh'
-- name: United States_None_trojan_1149
+- name: None_None_trojan_1149
   network: ws
   password: 3e3df21c-9db1-4df0-9c52-60684afae25f
   port: 8443
@@ -678,7 +678,7 @@ proxies:
     headers:
       Host: 17708034069343.206353.xyz
     path: '%2Fagrbniuh'
-- name: None_None_trojan_1150
+- name: United States_None_trojan_1150
   network: ws
   password: 3e3df21c-9db1-4df0-9c52-60684afae25f
   port: 2083
@@ -702,7 +702,7 @@ proxies:
     headers:
       Host: 17708034067576.206356.xyz
     path: '%2Fdmusicmuaawe'
-- name: United States_None_trojan_1152
+- name: None_None_trojan_1152
   network: ws
   password: 3e3df21c-9db1-4df0-9c52-60684afae25f
   port: 8443
@@ -738,7 +738,7 @@ proxies:
     headers:
       Host: 17708034066868.206355.xyz
     path: '%2Fvideomuaawe'
-- name: None_None_trojan_1155
+- name: United States_None_trojan_1155
   network: ws
   password: 3e3df21c-9db1-4df0-9c52-60684afae25f
   port: 8443
@@ -1223,13 +1223,13 @@ proxy-groups:
   - China_None_vmess_1126
   - Taiwan_Chiayi City_trojan_1127
   - United Kingdom_None_vmess_1128
-  - United States_San Francisco_trojan_1129
+  - None_None_trojan_1129
   - United States_San Francisco_trojan_1130
-  - United States_San Francisco_trojan_1131
+  - None_None_trojan_1131
   - None_None_trojan_1132
   - None_None_trojan_1133
   - None_None_trojan_1134
-  - United States_San Francisco_trojan_1135
+  - None_None_trojan_1135
   - None_None_trojan_1136
   - None_None_trojan_1137
   - None_None_trojan_1138
@@ -1242,14 +1242,14 @@ proxy-groups:
   - None_None_trojan_1145
   - None_None_trojan_1146
   - None_None_trojan_1147
-  - None_None_trojan_1148
-  - United States_None_trojan_1149
-  - None_None_trojan_1150
+  - United States_None_trojan_1148
+  - None_None_trojan_1149
+  - United States_None_trojan_1150
   - None_None_trojan_1151
-  - United States_None_trojan_1152
+  - None_None_trojan_1152
   - United States_None_trojan_1153
   - United States_None_trojan_1154
-  - None_None_trojan_1155
+  - United States_None_trojan_1155
   - Taiwan_Chiayi City_trojan_1156
   - Taiwan_Chiayi City_trojan_1157
   - Taiwan_Chiayi City_trojan_1158
@@ -1355,13 +1355,13 @@ proxy-groups:
   - China_None_vmess_1126
   - Taiwan_Chiayi City_trojan_1127
   - United Kingdom_None_vmess_1128
-  - United States_San Francisco_trojan_1129
+  - None_None_trojan_1129
   - United States_San Francisco_trojan_1130
-  - United States_San Francisco_trojan_1131
+  - None_None_trojan_1131
   - None_None_trojan_1132
   - None_None_trojan_1133
   - None_None_trojan_1134
-  - United States_San Francisco_trojan_1135
+  - None_None_trojan_1135
   - None_None_trojan_1136
   - None_None_trojan_1137
   - None_None_trojan_1138
@@ -1374,14 +1374,14 @@ proxy-groups:
   - None_None_trojan_1145
   - None_None_trojan_1146
   - None_None_trojan_1147
-  - None_None_trojan_1148
-  - United States_None_trojan_1149
-  - None_None_trojan_1150
+  - United States_None_trojan_1148
+  - None_None_trojan_1149
+  - United States_None_trojan_1150
   - None_None_trojan_1151
-  - United States_None_trojan_1152
+  - None_None_trojan_1152
   - United States_None_trojan_1153
   - United States_None_trojan_1154
-  - None_None_trojan_1155
+  - United States_None_trojan_1155
   - Taiwan_Chiayi City_trojan_1156
   - Taiwan_Chiayi City_trojan_1157
   - Taiwan_Chiayi City_trojan_1158
