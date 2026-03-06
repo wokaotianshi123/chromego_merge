@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_102
+  name: Hong Kong_Central_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -138,7 +138,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_1015
+  name: Hong Kong_Central_vmess_1015
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -244,11 +244,10 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_1112
-  network: tcp
-  port: '30807'
+  name: Hong Kong_Central_vmess_1112
+  port: 30807
   server: v10.hdacd.com
-  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -257,6 +256,7 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 443
   server: 58.152.18.189
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_1114
@@ -288,6 +288,7 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 34818
   server: 54.250.6.236
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_1118
@@ -295,6 +296,7 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4937
   server: 13.114.100.13
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_1119
@@ -302,6 +304,7 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4674
   server: 54.250.6.236
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_1120
@@ -309,6 +312,7 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4674
   server: 13.114.100.13
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Poland_None_trojan_1121
@@ -324,6 +328,7 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4019
   server: 13.114.100.13
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_1123
@@ -331,6 +336,7 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4019
   server: 54.250.6.236
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_1124
@@ -341,6 +347,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: Hong Kong_Central_vmess_1125
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 proxy-groups:
 - name: 节点选择
   type: select
@@ -348,7 +364,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Yuen Long San Hui_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_Central_trojan_103
   - Hong Kong_None_trojan_104
   - Hong Kong_None_trojan_105
@@ -361,7 +377,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1012
   - Japan_Tokyo_trojan_1013
   - Japan_Tokyo_trojan_1014
-  - Hong Kong_Yuen Long San Hui_vmess_1015
+  - Hong Kong_Central_vmess_1015
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -373,7 +389,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Yuen Long San Hui_vmess_1112
+  - Hong Kong_Central_vmess_1112
   - Hong Kong_Central_trojan_1113
   - Hong Kong_None_trojan_1114
   - Hong Kong_None_trojan_1115
@@ -386,6 +402,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1122
   - Japan_Tokyo_trojan_1123
   - Japan_Tokyo_trojan_1124
+  - Hong Kong_Central_vmess_1125
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -393,7 +410,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Yuen Long San Hui_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_Central_trojan_103
   - Hong Kong_None_trojan_104
   - Hong Kong_None_trojan_105
@@ -406,7 +423,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1012
   - Japan_Tokyo_trojan_1013
   - Japan_Tokyo_trojan_1014
-  - Hong Kong_Yuen Long San Hui_vmess_1015
+  - Hong Kong_Central_vmess_1015
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -418,7 +435,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Yuen Long San Hui_vmess_1112
+  - Hong Kong_Central_vmess_1112
   - Hong Kong_Central_trojan_1113
   - Hong Kong_None_trojan_1114
   - Hong Kong_None_trojan_1115
@@ -431,6 +448,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1122
   - Japan_Tokyo_trojan_1123
   - Japan_Tokyo_trojan_1124
+  - Hong Kong_Central_vmess_1125
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
