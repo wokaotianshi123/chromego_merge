@@ -316,7 +316,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: None_None_vmess_1119
+  name: United States_None_vmess_1119
   network: ws
   port: '443'
   server: gbnh.1oo.ccwu.cc
@@ -342,7 +342,7 @@ proxies:
     headers:
       Host: mjki.1nn.ccwu.cc
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: None_None_trojan_1121
+- name: United States_None_trojan_1121
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -532,9 +532,9 @@ proxy-groups:
   - Iran_None_vmess_1116
   - China_None_vmess_1117
   - Taiwan_Chiayi City_trojan_1118
-  - None_None_vmess_1119
+  - United States_None_vmess_1119
   - None_None_trojan_1120
-  - None_None_trojan_1121
+  - United States_None_trojan_1121
   - China_None_vmess_1122
   - China_None_vmess_1123
   - United States_None_ss_1124
@@ -591,9 +591,9 @@ proxy-groups:
   - Iran_None_vmess_1116
   - China_None_vmess_1117
   - Taiwan_Chiayi City_trojan_1118
-  - None_None_vmess_1119
+  - United States_None_vmess_1119
   - None_None_trojan_1120
-  - None_None_trojan_1121
+  - United States_None_trojan_1121
   - China_None_vmess_1122
   - China_None_vmess_1123
   - United States_None_ss_1124
