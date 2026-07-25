@@ -370,17 +370,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-128-gcm
-  name: United States_Los Angeles_ss_1126
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 94aaf10040.download.windowsupdate.com
-    mode: http
-  port: 920
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-- name: The Netherlands_None_trojan_1127
+- name: The Netherlands_None_trojan_1126
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -440,8 +430,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United States_Los Angeles_ss_1126
-  - The Netherlands_None_trojan_1127
+  - The Netherlands_None_trojan_1126
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -489,8 +478,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United States_Los Angeles_ss_1126
-  - The Netherlands_None_trojan_1127
+  - The Netherlands_None_trojan_1126
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
