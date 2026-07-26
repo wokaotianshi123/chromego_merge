@@ -383,43 +383,135 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: United Kingdom_Epping_trojan_1126
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_1126
+  password: dajkdkjdssa&dja*/?
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 38002
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_1127
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 9044
+  server: 260323.1.0.l2.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_1128
+  password: dajkbgja*/?
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 39073
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_1129
+  password: Vdssf.mj/2Zr
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 36203
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- name: United Kingdom_Epping_trojan_1130
   password: AQ71834695
   port: 443
-  server: alert-monster.rooster465.autos
+  server: concise-lacewing.rooster465.autos
   skip-cert-verify: true
+  sni: concise-lacewing.rooster465.autos
   type: trojan
   udp: true
-- name: The Netherlands_None_trojan_1127
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: '443'
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2228.0 Safari/537.36
-    path: /in-pdr
-- alterId: 0
-  cipher: auto
-  name: United States_San Jose_vmess_1128
-  network: ws
-  port: 2086
-  server: 154.17.234.39
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7e25875e-50bb-47ed-9627-261e6d232f69
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: 7e25875e-50bb-47ed-9627-261e6d232f69-vm
-- name: The Netherlands_None_trojan_1129
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_1131
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 817
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_1132
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 9019
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_1133
+  password: ayuclsaa
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 807
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_1134
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 9030
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_1135
+  password: ayucew2
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 9001
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_1136
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 920
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_1137
+  password: wedsa
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 804
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_1138
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 1549
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- name: The Netherlands_None_trojan_1139
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -432,7 +524,21 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- name: None_None_trojan_1130
+- name: United States_None_trojan_1140
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: '443'
+  server: 172.67.149.60
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /in-pdr
+- name: None_None_trojan_1141
   network: ws
   password: humanity
   port: 443
@@ -493,11 +599,22 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Japan_Tokyo_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United Kingdom_Epping_trojan_1126
-  - The Netherlands_None_trojan_1127
-  - United States_San Jose_vmess_1128
-  - The Netherlands_None_trojan_1129
-  - None_None_trojan_1130
+  - United States_Los Angeles_ss_1126
+  - United States_Los Angeles_ss_1127
+  - United States_Los Angeles_ss_1128
+  - United States_Los Angeles_ss_1129
+  - United Kingdom_Epping_trojan_1130
+  - United States_Los Angeles_ss_1131
+  - United States_Los Angeles_ss_1132
+  - United States_Los Angeles_ss_1133
+  - United States_Los Angeles_ss_1134
+  - United States_Los Angeles_ss_1135
+  - United States_Los Angeles_ss_1136
+  - United States_Los Angeles_ss_1137
+  - United States_Los Angeles_ss_1138
+  - The Netherlands_None_trojan_1139
+  - United States_None_trojan_1140
+  - None_None_trojan_1141
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -546,11 +663,22 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Japan_Tokyo_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United Kingdom_Epping_trojan_1126
-  - The Netherlands_None_trojan_1127
-  - United States_San Jose_vmess_1128
-  - The Netherlands_None_trojan_1129
-  - None_None_trojan_1130
+  - United States_Los Angeles_ss_1126
+  - United States_Los Angeles_ss_1127
+  - United States_Los Angeles_ss_1128
+  - United States_Los Angeles_ss_1129
+  - United Kingdom_Epping_trojan_1130
+  - United States_Los Angeles_ss_1131
+  - United States_Los Angeles_ss_1132
+  - United States_Los Angeles_ss_1133
+  - United States_Los Angeles_ss_1134
+  - United States_Los Angeles_ss_1135
+  - United States_Los Angeles_ss_1136
+  - United States_Los Angeles_ss_1137
+  - United States_Los Angeles_ss_1138
+  - The Netherlands_None_trojan_1139
+  - United States_None_trojan_1140
+  - None_None_trojan_1141
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
