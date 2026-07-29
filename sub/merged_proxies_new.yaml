@@ -380,14 +380,73 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: United States_None_trojan_1126
+- alpn:
+  - http/1.1
+  name: None_None_trojan_1126
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: undef.network
+  skip-cert-verify: true
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: com.digitalposts.dpdns.org
+    path: /bkdicj
+- cipher: aes-256-cfb
+  name: Sweden_Stockholm_ss_1127
+  password: amazonskr05
+  port: 443
+  server: 51.20.125.180
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: Iran_None_ss_1128
+  password: zyqB77GsJ0CZnRBiWvF6buPpynCXXHQY6QDPrDNIwXU=
+  port: '19964'
+  server: n4.cover20.ir
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  name: United States_None_trojan_1129
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: '8443'
+  server: hyperon.site
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /bkdicj
+- cipher: chacha20-ietf-poly1305
+  name: The Netherlands_None_ss_1130
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: '8080'
+  server: 193.29.139.168
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: The Netherlands_Amsterdam_ss_1131
+  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
+  port: '45819'
+  server: 158.101.208.107
+  type: ss
+  udp: true
+- name: United States_None_trojan_1132
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: United States_None_trojan_1127
+- name: United States_None_trojan_1133
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20035
   server: oplosgru-c.catcat321.com
@@ -395,7 +454,7 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- name: United States_None_trojan_1128
+- name: United States_None_trojan_1134
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: oplosgru-c.catcat321.com
@@ -452,9 +511,15 @@ proxy-groups:
   - Japan_Tokyo_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United States_None_trojan_1126
-  - United States_None_trojan_1127
-  - United States_None_trojan_1128
+  - None_None_trojan_1126
+  - Sweden_Stockholm_ss_1127
+  - Iran_None_ss_1128
+  - United States_None_trojan_1129
+  - The Netherlands_None_ss_1130
+  - The Netherlands_Amsterdam_ss_1131
+  - United States_None_trojan_1132
+  - United States_None_trojan_1133
+  - United States_None_trojan_1134
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -504,9 +569,15 @@ proxy-groups:
   - Japan_Tokyo_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United States_None_trojan_1126
-  - United States_None_trojan_1127
-  - United States_None_trojan_1128
+  - None_None_trojan_1126
+  - Sweden_Stockholm_ss_1127
+  - Iran_None_ss_1128
+  - United States_None_trojan_1129
+  - The Netherlands_None_ss_1130
+  - The Netherlands_Amsterdam_ss_1131
+  - United States_None_trojan_1132
+  - United States_None_trojan_1133
+  - United States_None_trojan_1134
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
