@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_102
+  name: Hong Kong_Kowloon_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -138,7 +138,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1015
+  name: Hong Kong_Kowloon_vmess_1015
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -386,7 +386,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1112
+  name: Hong Kong_Kowloon_vmess_1112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -491,7 +491,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1125
+  name: Hong Kong_Kowloon_vmess_1125
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -597,7 +597,7 @@ proxies:
         Gecko) Chrome/41.0.2272.76 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: chacha20-ietf-poly1305
-  name: United Kingdom_Gosport_ss_1135
+  name: Hong Kong_None_ss_1135
   password: 28789988-887e-4e41-83cd-27bbfb7999ad
   port: '40028'
   server: xunlinknode.csdjhajkshdjkas.com
@@ -743,7 +743,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Kowloon_vmess_102
   - Hong Kong_None_trojan_103
   - Hong Kong_None_trojan_104
   - Hong Kong_None_trojan_105
@@ -756,7 +756,7 @@ proxy-groups:
   - Hong Kong_None_trojan_1012
   - Poland_None_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Central_vmess_1015
+  - Hong Kong_Kowloon_vmess_1015
   - United Kingdom_Isleworth_trojan_1016
   - United Kingdom_Isleworth_trojan_1017
   - United Kingdom_Isleworth_trojan_1018
@@ -783,7 +783,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Central_vmess_1112
+  - Hong Kong_Kowloon_vmess_1112
   - Hong Kong_None_trojan_1113
   - Hong Kong_None_trojan_1114
   - Hong Kong_None_trojan_1115
@@ -796,7 +796,7 @@ proxy-groups:
   - Hong Kong_None_trojan_1122
   - Poland_None_trojan_1123
   - Hong Kong_None_trojan_1124
-  - Hong Kong_Central_vmess_1125
+  - Hong Kong_Kowloon_vmess_1125
   - United Kingdom_Milford_ss_1126
   - United States_None_trojan_1127
   - United States_Ashburn_ss_1128
@@ -806,7 +806,7 @@ proxy-groups:
   - United Kingdom_York_trojan_1132
   - The Netherlands_Amsterdam_trojan_1133
   - The Netherlands_Amsterdam_trojan_1134
-  - United Kingdom_Gosport_ss_1135
+  - Hong Kong_None_ss_1135
   - Germany_Frankfurt am Main_ss_1136
   - United Kingdom_Isleworth_trojan_1137
   - United Kingdom_Isleworth_trojan_1138
@@ -828,7 +828,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Kowloon_vmess_102
   - Hong Kong_None_trojan_103
   - Hong Kong_None_trojan_104
   - Hong Kong_None_trojan_105
@@ -841,7 +841,7 @@ proxy-groups:
   - Hong Kong_None_trojan_1012
   - Poland_None_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Central_vmess_1015
+  - Hong Kong_Kowloon_vmess_1015
   - United Kingdom_Isleworth_trojan_1016
   - United Kingdom_Isleworth_trojan_1017
   - United Kingdom_Isleworth_trojan_1018
@@ -868,7 +868,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Central_vmess_1112
+  - Hong Kong_Kowloon_vmess_1112
   - Hong Kong_None_trojan_1113
   - Hong Kong_None_trojan_1114
   - Hong Kong_None_trojan_1115
@@ -881,7 +881,7 @@ proxy-groups:
   - Hong Kong_None_trojan_1122
   - Poland_None_trojan_1123
   - Hong Kong_None_trojan_1124
-  - Hong Kong_Central_vmess_1125
+  - Hong Kong_Kowloon_vmess_1125
   - United Kingdom_Milford_ss_1126
   - United States_None_trojan_1127
   - United States_Ashburn_ss_1128
@@ -891,7 +891,7 @@ proxy-groups:
   - United Kingdom_York_trojan_1132
   - The Netherlands_Amsterdam_trojan_1133
   - The Netherlands_Amsterdam_trojan_1134
-  - United Kingdom_Gosport_ss_1135
+  - Hong Kong_None_ss_1135
   - Germany_Frankfurt am Main_ss_1136
   - United Kingdom_Isleworth_trojan_1137
   - United Kingdom_Isleworth_trojan_1138
