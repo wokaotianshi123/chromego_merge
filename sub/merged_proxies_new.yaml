@@ -146,30 +146,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Hong Kong_Hong Kong_trojan_1016
-  password: ND91608427
-  port: 443
-  server: upright-hamster.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-hamster.rooster465.autos
-  type: trojan
-  udp: true
-- name: Ireland_Dublin_trojan_1017
-  password: ND91608427
-  port: 443
-  server: skilled-lioness.rooster465.autos
-  skip-cert-verify: true
-  sni: skilled-lioness.rooster465.autos
-  type: trojan
-  udp: true
-- name: Romania_None_trojan_1018
-  password: ND91608427
-  port: 443
-  server: eager-louse.rooster465.autos
-  skip-cert-verify: true
-  sni: eager-louse.rooster465.autos
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_111
@@ -381,7 +357,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: United States_None_trojan_1126
+- cipher: aes-256-cfb
+  name: United States_Ashburn_ss_1126
+  password: amazonskr05
+  port: 443
+  server: 3.85.61.177
+  type: ss
+  udp: true
+- name: None_None_trojan_1127
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: United States_None_trojan_1128
   password: 55354c2b8ee339571bd657a9bb9858cc
   port: '39221'
   server: speed-01.aliyun-web-tracker.cn
@@ -390,19 +386,17 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: Japan_Tokyo_ss_1127
+  name: Sweden_Stockholm_ss_1129
   password: amazonskr05
   port: 443
-  server: 13.231.227.228
+  server: 13.61.13.49
   type: ss
   udp: true
-- name: United States_None_trojan_1128
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: '53199'
-  server: speed-01.aliyun-web-tracker.cn
+- name: United States_None_trojan_1130
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20041'
+  server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: speed-01.aliyun-web-tracker.cn
   type: trojan
   udp: true
 proxy-groups:
@@ -426,9 +420,6 @@ proxy-groups:
   - Hong Kong_None_trojan_1013
   - Hong Kong_None_trojan_1014
   - Hong Kong_Central_vmess_1015
-  - Hong Kong_Hong Kong_trojan_1016
-  - Ireland_Dublin_trojan_1017
-  - Romania_None_trojan_1018
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -454,9 +445,11 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United States_None_trojan_1126
-  - Japan_Tokyo_ss_1127
+  - United States_Ashburn_ss_1126
+  - None_None_trojan_1127
   - United States_None_trojan_1128
+  - Sweden_Stockholm_ss_1129
+  - United States_None_trojan_1130
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -478,9 +471,6 @@ proxy-groups:
   - Hong Kong_None_trojan_1013
   - Hong Kong_None_trojan_1014
   - Hong Kong_Central_vmess_1015
-  - Hong Kong_Hong Kong_trojan_1016
-  - Ireland_Dublin_trojan_1017
-  - Romania_None_trojan_1018
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -506,9 +496,11 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United States_None_trojan_1126
-  - Japan_Tokyo_ss_1127
+  - United States_Ashburn_ss_1126
+  - None_None_trojan_1127
   - United States_None_trojan_1128
+  - Sweden_Stockholm_ss_1129
+  - United States_None_trojan_1130
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
