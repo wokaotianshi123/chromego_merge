@@ -342,31 +342,105 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: Hong Kong_None_trojan_1125
-  password: BxceQaOe
-  port: '35151'
-  server: 16.162.190.25
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  name: None_None_trojan_1125
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.140
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
-  name: Hong Kong_None_trojan_1126
-  password: BxceQaOe
-  port: '35151'
-  server: 18.167.76.203
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  name: None_None_trojan_1126
+  network: ws
+  password: humanity
+  port: '443'
+  server: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
-  name: Hong Kong_None_trojan_1127
-  password: BxceQaOe
-  port: '10418'
-  server: 18.167.76.203
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  name: None_None_trojan_1127
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.73
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /assignment
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  name: None_None_trojan_1128
+  network: ws
+  password: humanity
+  port: '443'
+  server: 198.41.223.96
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: Austria_Vienna_trojan_1129
+  network: ws
+  password: humanity
+  port: '443'
+  server: 8.6.112.0
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_1130
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.26.15.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /assignment
+- cipher: chacha20-ietf
+  name: Hong Kong_None_ss_1131
+  password: asd123456
+  port: '8388'
+  server: 103.149.182.79
+  type: ss
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -412,9 +486,13 @@ proxy-groups:
   - Hong Kong_None_trojan_1122
   - Hong Kong_None_trojan_1123
   - Hong Kong_Central_vmess_1124
-  - Hong Kong_None_trojan_1125
-  - Hong Kong_None_trojan_1126
-  - Hong Kong_None_trojan_1127
+  - None_None_trojan_1125
+  - None_None_trojan_1126
+  - None_None_trojan_1127
+  - None_None_trojan_1128
+  - Austria_Vienna_trojan_1129
+  - None_None_trojan_1130
+  - Hong Kong_None_ss_1131
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -459,9 +537,13 @@ proxy-groups:
   - Hong Kong_None_trojan_1122
   - Hong Kong_None_trojan_1123
   - Hong Kong_Central_vmess_1124
-  - Hong Kong_None_trojan_1125
-  - Hong Kong_None_trojan_1126
-  - Hong Kong_None_trojan_1127
+  - None_None_trojan_1125
+  - None_None_trojan_1126
+  - None_None_trojan_1127
+  - None_None_trojan_1128
+  - Austria_Vienna_trojan_1129
+  - None_None_trojan_1130
+  - Hong Kong_None_ss_1131
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
