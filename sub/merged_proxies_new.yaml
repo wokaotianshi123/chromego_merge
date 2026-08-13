@@ -43,16 +43,16 @@ proxies:
 - name: Hong Kong_None_trojan_103
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 11231
-  server: 16.162.100.124
+  port: 50887
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_104
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 18.162.244.203
+  port: 29444
+  server: 18.162.156.145
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -67,28 +67,36 @@ proxies:
 - name: Hong Kong_None_trojan_106
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 16.162.100.124
+  port: 16691
+  server: 16.162.33.15
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_107
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 44229
-  server: 16.162.192.182
+  port: 54876
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_108
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 18286
-  server: 16.162.192.182
+  port: 3415
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_109
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 45744
+  server: 16.162.109.29
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: Hong Kong_None_trojan_1010
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 32434
@@ -96,43 +104,35 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_1010
-  network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 45744
-  server: 16.162.192.182
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: Hong Kong_None_trojan_1011
   network: tcp
   password: BxceQaOe
-  port: 26704
-  server: 18.163.126.92
+  port: 41421
+  server: 18.167.42.162
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Poland_None_trojan_1012
-  network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 28051
-  server: 95.40.14.234
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: Hong Kong_None_trojan_1013
+- name: Hong Kong_None_trojan_1012
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 10418
-  server: 16.162.100.124
+  server: 18.163.126.92
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: Poland_None_trojan_1013
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 39024
+  server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_1014
   network: tcp
   password: BxceQaOe
-  port: 28051
-  server: 16.162.100.124
+  port: 10418
+  server: 18.166.211.66
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -386,51 +386,67 @@ proxies:
   network: ws
   password: humanity
   port: '443'
-  server: 165.215.250.14
-  skip-cert-verify: true
+  server: 172.67.149.60
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: None_None_trojan_1127
   network: ws
   password: humanity
   port: '443'
-  server: www.ignitelimit.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: None_None_trojan_1128
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.210
+  server: 104.17.111.8
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_1128
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.246
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_1129
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.26.15.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
     path: /assignment
 - alpn:
   - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: United States_None_trojan_1129
+  name: United States_None_trojan_1130
   network: ws
   password: humanity
   port: '443'
@@ -442,24 +458,42 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: None_None_trojan_1130
+  name: None_None_trojan_1131
   network: ws
   password: humanity
   port: '443'
-  server: 104.17.111.1
+  server: 104.18.152.233
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
     path: /assignment
-- name: Hong Kong_None_trojan_1131
+- client-fingerprint: chrome
+  name: Hong Kong_None_trojan_1132
+  password: BxceQaOe
+  port: '29444'
+  server: 18.162.156.145
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: Hong Kong_None_trojan_1133
+  password: BxceQaOe
+  port: '16691'
+  server: 16.162.33.15
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: Hong Kong_None_trojan_1134
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -467,7 +501,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_1132
+- name: Hong Kong_None_trojan_1135
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -475,7 +509,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_1133
+- name: Japan_Tokyo_trojan_1136
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
   server: t11.qifei.app
@@ -500,8 +534,8 @@ proxy-groups:
   - Hong Kong_None_trojan_109
   - Hong Kong_None_trojan_1010
   - Hong Kong_None_trojan_1011
-  - Poland_None_trojan_1012
-  - Hong Kong_None_trojan_1013
+  - Hong Kong_None_trojan_1012
+  - Poland_None_trojan_1013
   - Hong Kong_None_trojan_1014
   - Hong Kong_Central_vmess_1015
   - Hong Kong_None_trojan_1016
@@ -535,11 +569,14 @@ proxy-groups:
   - United States_None_trojan_1126
   - None_None_trojan_1127
   - None_None_trojan_1128
-  - United States_None_trojan_1129
-  - None_None_trojan_1130
-  - Hong Kong_None_trojan_1131
+  - None_None_trojan_1129
+  - United States_None_trojan_1130
+  - None_None_trojan_1131
   - Hong Kong_None_trojan_1132
-  - Japan_Tokyo_trojan_1133
+  - Hong Kong_None_trojan_1133
+  - Hong Kong_None_trojan_1134
+  - Hong Kong_None_trojan_1135
+  - Japan_Tokyo_trojan_1136
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -557,8 +594,8 @@ proxy-groups:
   - Hong Kong_None_trojan_109
   - Hong Kong_None_trojan_1010
   - Hong Kong_None_trojan_1011
-  - Poland_None_trojan_1012
-  - Hong Kong_None_trojan_1013
+  - Hong Kong_None_trojan_1012
+  - Poland_None_trojan_1013
   - Hong Kong_None_trojan_1014
   - Hong Kong_Central_vmess_1015
   - Hong Kong_None_trojan_1016
@@ -592,11 +629,14 @@ proxy-groups:
   - United States_None_trojan_1126
   - None_None_trojan_1127
   - None_None_trojan_1128
-  - United States_None_trojan_1129
-  - None_None_trojan_1130
-  - Hong Kong_None_trojan_1131
+  - None_None_trojan_1129
+  - United States_None_trojan_1130
+  - None_None_trojan_1131
   - Hong Kong_None_trojan_1132
-  - Japan_Tokyo_trojan_1133
+  - Hong Kong_None_trojan_1133
+  - Hong Kong_None_trojan_1134
+  - Hong Kong_None_trojan_1135
+  - Japan_Tokyo_trojan_1136
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
