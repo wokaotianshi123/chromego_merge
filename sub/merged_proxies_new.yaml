@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sham Shui Po_vmess_102
+  name: Hong Kong_Kowloon_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -138,7 +138,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sham Shui Po_vmess_1015
+  name: Hong Kong_Kowloon_vmess_1015
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -268,7 +268,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sham Shui Po_vmess_1112
+  name: Hong Kong_Kowloon_vmess_1112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -373,7 +373,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sham Shui Po_vmess_1125
+  name: Hong Kong_Kowloon_vmess_1125
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -381,14 +381,34 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: Germany_Frankfurt am Main_ss_1126
-  password: amazonskr05
-  port: 443
-  server: 18.199.102.146
-  type: ss
+- client-fingerprint: chrome
+  name: Hong Kong_None_trojan_1126
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: '50887'
+  server: 2c.fast9988.com
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
   udp: true
-- name: Hong Kong_None_trojan_1127
+- client-fingerprint: chrome
+  name: South Korea_Incheon_trojan_1127
+  network: tcp
+  password: FH72359861
+  port: '443'
+  server: massive-ocelot.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: South Korea_Incheon_trojan_1128
+  network: tcp
+  password: FH72359861
+  port: '443'
+  server: apt-whippet.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: Hong Kong_None_trojan_1129
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -396,7 +416,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_1128
+- name: Hong Kong_None_trojan_1130
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -404,7 +424,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_1129
+- name: Japan_Tokyo_trojan_1131
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
   server: t11.qifei.app
@@ -419,7 +439,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Sham Shui Po_vmess_102
+  - Hong Kong_Kowloon_vmess_102
   - Hong Kong_None_trojan_103
   - Hong Kong_None_trojan_104
   - Hong Kong_None_trojan_105
@@ -432,7 +452,7 @@ proxy-groups:
   - Hong Kong_None_trojan_1012
   - Poland_None_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Sham Shui Po_vmess_1015
+  - Hong Kong_Kowloon_vmess_1015
   - Hong Kong_None_trojan_1016
   - Hong Kong_None_trojan_1017
   - Japan_Tokyo_trojan_1018
@@ -447,7 +467,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Sham Shui Po_vmess_1112
+  - Hong Kong_Kowloon_vmess_1112
   - Hong Kong_None_trojan_1113
   - Hong Kong_None_trojan_1114
   - Hong Kong_None_trojan_1115
@@ -460,11 +480,13 @@ proxy-groups:
   - Hong Kong_None_trojan_1122
   - Poland_None_trojan_1123
   - Hong Kong_None_trojan_1124
-  - Hong Kong_Sham Shui Po_vmess_1125
-  - Germany_Frankfurt am Main_ss_1126
-  - Hong Kong_None_trojan_1127
-  - Hong Kong_None_trojan_1128
-  - Japan_Tokyo_trojan_1129
+  - Hong Kong_Kowloon_vmess_1125
+  - Hong Kong_None_trojan_1126
+  - South Korea_Incheon_trojan_1127
+  - South Korea_Incheon_trojan_1128
+  - Hong Kong_None_trojan_1129
+  - Hong Kong_None_trojan_1130
+  - Japan_Tokyo_trojan_1131
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -472,7 +494,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Sham Shui Po_vmess_102
+  - Hong Kong_Kowloon_vmess_102
   - Hong Kong_None_trojan_103
   - Hong Kong_None_trojan_104
   - Hong Kong_None_trojan_105
@@ -485,7 +507,7 @@ proxy-groups:
   - Hong Kong_None_trojan_1012
   - Poland_None_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Sham Shui Po_vmess_1015
+  - Hong Kong_Kowloon_vmess_1015
   - Hong Kong_None_trojan_1016
   - Hong Kong_None_trojan_1017
   - Japan_Tokyo_trojan_1018
@@ -500,7 +522,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Sham Shui Po_vmess_1112
+  - Hong Kong_Kowloon_vmess_1112
   - Hong Kong_None_trojan_1113
   - Hong Kong_None_trojan_1114
   - Hong Kong_None_trojan_1115
@@ -513,11 +535,13 @@ proxy-groups:
   - Hong Kong_None_trojan_1122
   - Poland_None_trojan_1123
   - Hong Kong_None_trojan_1124
-  - Hong Kong_Sham Shui Po_vmess_1125
-  - Germany_Frankfurt am Main_ss_1126
-  - Hong Kong_None_trojan_1127
-  - Hong Kong_None_trojan_1128
-  - Japan_Tokyo_trojan_1129
+  - Hong Kong_Kowloon_vmess_1125
+  - Hong Kong_None_trojan_1126
+  - South Korea_Incheon_trojan_1127
+  - South Korea_Incheon_trojan_1128
+  - Hong Kong_None_trojan_1129
+  - Hong Kong_None_trojan_1130
+  - Japan_Tokyo_trojan_1131
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
