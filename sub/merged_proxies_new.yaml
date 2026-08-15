@@ -365,118 +365,63 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Japan_Tokyo_trojan_1125
-  password: FH72359861
-  port: 443
-  server: endless-kiwi.rooster465.autos
-  skip-cert-verify: true
-  sni: endless-kiwi.rooster465.autos
-  type: trojan
-  udp: true
-- name: South Korea_Incheon_trojan_1126
+- name: South Korea_Incheon_trojan_1125
+  network: tcp
   password: HC04361579
   port: 443
-  server: key-barnacle.rooster465.autos
+  server: star-shrimp.rooster465.autos
   skip-cert-verify: true
-  sni: key-barnacle.rooster465.autos
+  sni: star-shrimp.rooster465.autos
   type: trojan
   udp: true
-- name: South Korea_Incheon_trojan_1127
-  password: FH72359861
-  port: 443
-  server: complete-narwhal.rooster465.autos
-  skip-cert-verify: true
-  sni: complete-narwhal.rooster465.autos
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_1128
-  password: FH72359861
-  port: 443
-  server: funny-squid.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_1129
-  password: FH72359861
-  port: 443
-  server: light-filly.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_1130
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: wise-gibbon.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: South Korea_Incheon_trojan_1131
-  password: FH72359861
-  port: 443
-  server: complete-narwhal.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: South Korea_None_trojan_1132
-  password: FH72359861
-  port: 443
-  server: one-dove.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: South Korea_Incheon_trojan_1133
-  password: FH72359861
-  port: 443
-  server: aware-coyote.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: Singapore_Singapore_vmess_1134
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: China_None_ss_1135
-  password: f552e8bf-9b43-3654-8efa-b7cb366431e8
-  port: '20026'
-  server: l.d.w.a.5.4.z.9.6.ar01-ae5.entry.v51124-3a.qpon
+- cipher: chacha20-ietf
+  name: United Kingdom_Gosport_ss_1126
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8115
+  server: cn03.somethingstranges.com
   type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: China_None_trojan_1136
+- cipher: chacha20-ietf
+  name: United Kingdom_Gosport_ss_1127
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8232
+  server: cn06.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: United Kingdom_Gosport_ss_1128
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8233
+  server: cn06.somethingstranges.com
+  type: ss
+- name: South Korea_None_trojan_1129
   network: tcp
-  password: 7E62D6D5-1880-EAA4-96E9-FFD6E81B9446
-  port: '20041'
-  server: oss-shanghai.micron-qwer.com
-  skip-cert-verify: true
-  sni: mpvideo.qpic.cn
+  password: HC04361579
+  port: 443
+  server: enough-lamb.rooster465.autos
+  sni: enough-lamb.rooster465.autos
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: China_None_trojan_1137
-  network: tcp
-  password: 7E62D6D5-1880-EAA4-96E9-FFD6E81B9446
-  port: '20046'
-  server: oss-shanghai.micron-qwer.com
-  skip-cert-verify: true
-  sni: mpvideo.qpic.cn
-  type: trojan
-  udp: true
-- name: Hong Kong_None_trojan_1138
+- cipher: chacha20-ietf
+  name: United Kingdom_Gosport_ss_1130
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8629
+  server: cn18.somethingstranges.com
+  type: ss
+- name: Hong Kong_None_trojan_1131
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -484,7 +429,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_1139
+- name: Hong Kong_None_trojan_1132
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -492,7 +437,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_1140
+- name: Japan_Tokyo_trojan_1133
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
   server: t11.qifei.app
@@ -547,22 +492,15 @@ proxy-groups:
   - Hong Kong_None_trojan_1122
   - Hong Kong_None_trojan_1123
   - Hong Kong_Central_vmess_1124
-  - Japan_Tokyo_trojan_1125
-  - South Korea_Incheon_trojan_1126
-  - South Korea_Incheon_trojan_1127
-  - Japan_Tokyo_trojan_1128
-  - Japan_Tokyo_trojan_1129
-  - Japan_Tokyo_trojan_1130
-  - South Korea_Incheon_trojan_1131
-  - South Korea_None_trojan_1132
-  - South Korea_Incheon_trojan_1133
-  - Singapore_Singapore_vmess_1134
-  - China_None_ss_1135
-  - China_None_trojan_1136
-  - China_None_trojan_1137
-  - Hong Kong_None_trojan_1138
-  - Hong Kong_None_trojan_1139
-  - Japan_Tokyo_trojan_1140
+  - South Korea_Incheon_trojan_1125
+  - United Kingdom_Gosport_ss_1126
+  - United Kingdom_Gosport_ss_1127
+  - United Kingdom_Gosport_ss_1128
+  - South Korea_None_trojan_1129
+  - United Kingdom_Gosport_ss_1130
+  - Hong Kong_None_trojan_1131
+  - Hong Kong_None_trojan_1132
+  - Japan_Tokyo_trojan_1133
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -610,22 +548,15 @@ proxy-groups:
   - Hong Kong_None_trojan_1122
   - Hong Kong_None_trojan_1123
   - Hong Kong_Central_vmess_1124
-  - Japan_Tokyo_trojan_1125
-  - South Korea_Incheon_trojan_1126
-  - South Korea_Incheon_trojan_1127
-  - Japan_Tokyo_trojan_1128
-  - Japan_Tokyo_trojan_1129
-  - Japan_Tokyo_trojan_1130
-  - South Korea_Incheon_trojan_1131
-  - South Korea_None_trojan_1132
-  - South Korea_Incheon_trojan_1133
-  - Singapore_Singapore_vmess_1134
-  - China_None_ss_1135
-  - China_None_trojan_1136
-  - China_None_trojan_1137
-  - Hong Kong_None_trojan_1138
-  - Hong Kong_None_trojan_1139
-  - Japan_Tokyo_trojan_1140
+  - South Korea_Incheon_trojan_1125
+  - United Kingdom_Gosport_ss_1126
+  - United Kingdom_Gosport_ss_1127
+  - United Kingdom_Gosport_ss_1128
+  - South Korea_None_trojan_1129
+  - United Kingdom_Gosport_ss_1130
+  - Hong Kong_None_trojan_1131
+  - Hong Kong_None_trojan_1132
+  - Japan_Tokyo_trojan_1133
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
