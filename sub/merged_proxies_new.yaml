@@ -365,96 +365,83 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: France_None_vmess_1125
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
+- name: Japan_Tokyo_trojan_1125
+  password: HC04361579
+  port: 443
+  server: pet-albacore.rooster465.autos
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-  ws-opts:
-    headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: United States_None_vmess_1126
-  network: http
-  port: 52080
-  server: 38.246.226.240
+  sni: pet-albacore.rooster465.autos
+  type: trojan
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ajv
+  name: Russia_None_trojan_1126
+  network: grpc
+  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+  port: '443'
+  server: ru-5b7331.atlanta-games.com
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1127
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21109'
-  server: 211.91.158.24
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1128
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21114'
-  server: 211.91.158.24
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1129
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21107'
-  server: 211.91.158.24
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1130
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21119'
-  server: 211.91.158.24
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1131
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21109'
-  server: 211.91.158.27
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1132
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21107'
-  server: 211.91.158.27
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1133
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21119'
-  server: 211.91.158.27
+- cipher: aes-256-cfb
+  name: Germany_Frankfurt am Main_ss_1127
+  password: amazonskr05
+  port: 443
+  server: 3.79.230.55
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_1134
+  name: Sweden_Stockholm_trojan_1128
   network: tcp
-  password: HC04361579
+  password: fg20mtCFHy
+  port: 5612
+  server: 172.234.100.80
+  skip-cert-verify: true
+  sni: yugdv.southbyte.xyz
+  type: trojan
+- client-fingerprint: chrome
+  name: The Netherlands_Amsterdam_trojan_1129
+  network: tcp
+  password: fg20mtCFHy
+  port: 5446
+  server: 206.189.7.80
+  skip-cert-verify: true
+  sni: inxgc.southbyte.xyz
+  type: trojan
+- cipher: aes-256-cfb
+  name: China_None_ss_1130
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.235
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: ajv
+  name: Russia_None_trojan_1131
+  network: grpc
+  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
   port: '443'
-  server: driven-doberman.rooster465.autos
+  server: 176.108.242.191
   skip-cert-verify: false
-  sni: driven-doberman.rooster465.autos
+  sni: ru-5b7331.atlanta-games.com
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_1135
+- client-fingerprint: chrome
+  name: Canada_Toronto_trojan_1132
+  network: tcp
+  password: fg20mtCFHy
+  port: '1921'
+  server: 137.184.172.41
+  skip-cert-verify: true
+  sni: sfecv.southbyte.xyz
+  type: trojan
+  udp: true
+- name: Hong Kong_None_trojan_1133
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -462,7 +449,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_1136
+- name: Hong Kong_None_trojan_1134
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -470,7 +457,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_1137
+- name: Japan_Tokyo_trojan_1135
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
   server: t11.qifei.app
@@ -525,19 +512,17 @@ proxy-groups:
   - Hong Kong_None_trojan_1122
   - Hong Kong_None_trojan_1123
   - Hong Kong_Central_vmess_1124
-  - France_None_vmess_1125
-  - United States_None_vmess_1126
-  - China_None_ss_1127
-  - China_None_ss_1128
-  - China_None_ss_1129
+  - Japan_Tokyo_trojan_1125
+  - Russia_None_trojan_1126
+  - Germany_Frankfurt am Main_ss_1127
+  - Sweden_Stockholm_trojan_1128
+  - The Netherlands_Amsterdam_trojan_1129
   - China_None_ss_1130
-  - China_None_ss_1131
-  - China_None_ss_1132
-  - China_None_ss_1133
-  - Japan_Tokyo_trojan_1134
-  - Hong Kong_None_trojan_1135
-  - Hong Kong_None_trojan_1136
-  - Japan_Tokyo_trojan_1137
+  - Russia_None_trojan_1131
+  - Canada_Toronto_trojan_1132
+  - Hong Kong_None_trojan_1133
+  - Hong Kong_None_trojan_1134
+  - Japan_Tokyo_trojan_1135
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -585,19 +570,17 @@ proxy-groups:
   - Hong Kong_None_trojan_1122
   - Hong Kong_None_trojan_1123
   - Hong Kong_Central_vmess_1124
-  - France_None_vmess_1125
-  - United States_None_vmess_1126
-  - China_None_ss_1127
-  - China_None_ss_1128
-  - China_None_ss_1129
+  - Japan_Tokyo_trojan_1125
+  - Russia_None_trojan_1126
+  - Germany_Frankfurt am Main_ss_1127
+  - Sweden_Stockholm_trojan_1128
+  - The Netherlands_Amsterdam_trojan_1129
   - China_None_ss_1130
-  - China_None_ss_1131
-  - China_None_ss_1132
-  - China_None_ss_1133
-  - Japan_Tokyo_trojan_1134
-  - Hong Kong_None_trojan_1135
-  - Hong Kong_None_trojan_1136
-  - Japan_Tokyo_trojan_1137
+  - Russia_None_trojan_1131
+  - Canada_Toronto_trojan_1132
+  - Hong Kong_None_trojan_1133
+  - Hong Kong_None_trojan_1134
+  - Japan_Tokyo_trojan_1135
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
