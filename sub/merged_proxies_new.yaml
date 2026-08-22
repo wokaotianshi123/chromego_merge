@@ -357,34 +357,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: China_None_ss_1126
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: China_None_vmess_1127
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: France_None_vmess_1128
+  name: France_None_vmess_1126
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
   servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -393,168 +373,6 @@ proxies:
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1129
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21105'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1130
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21117'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1131
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21113'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1132
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21109'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1133
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21117'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1134
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21108'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1135
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21103'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1136
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21104'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1137
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21113'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1138
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21114'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1139
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21118'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1140
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21119'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1141
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21120'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1142
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21125'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1143
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21126'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1144
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21103'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1145
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21104'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1146
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21105'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1147
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21116'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1148
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21118'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1149
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21123'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1150
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21125'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_1151
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21126'
-  server: 211.91.158.44
-  type: ss
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -601,32 +419,7 @@ proxy-groups:
   - Poland_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - China_None_ss_1126
-  - China_None_vmess_1127
-  - France_None_vmess_1128
-  - China_None_ss_1129
-  - China_None_ss_1130
-  - China_None_ss_1131
-  - China_None_ss_1132
-  - China_None_ss_1133
-  - China_None_ss_1134
-  - China_None_ss_1135
-  - China_None_ss_1136
-  - China_None_ss_1137
-  - China_None_ss_1138
-  - China_None_ss_1139
-  - China_None_ss_1140
-  - China_None_ss_1141
-  - China_None_ss_1142
-  - China_None_ss_1143
-  - China_None_ss_1144
-  - China_None_ss_1145
-  - China_None_ss_1146
-  - China_None_ss_1147
-  - China_None_ss_1148
-  - China_None_ss_1149
-  - China_None_ss_1150
-  - China_None_ss_1151
+  - France_None_vmess_1126
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -673,32 +466,7 @@ proxy-groups:
   - Poland_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - China_None_ss_1126
-  - China_None_vmess_1127
-  - France_None_vmess_1128
-  - China_None_ss_1129
-  - China_None_ss_1130
-  - China_None_ss_1131
-  - China_None_ss_1132
-  - China_None_ss_1133
-  - China_None_ss_1134
-  - China_None_ss_1135
-  - China_None_ss_1136
-  - China_None_ss_1137
-  - China_None_ss_1138
-  - China_None_ss_1139
-  - China_None_ss_1140
-  - China_None_ss_1141
-  - China_None_ss_1142
-  - China_None_ss_1143
-  - China_None_ss_1144
-  - China_None_ss_1145
-  - China_None_ss_1146
-  - China_None_ss_1147
-  - China_None_ss_1148
-  - China_None_ss_1149
-  - China_None_ss_1150
-  - China_None_ss_1151
+  - France_None_vmess_1126
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
