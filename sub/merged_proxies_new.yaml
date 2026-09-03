@@ -222,30 +222,20 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: United States_None_trojan_1026
-  network: ws
-  password: humanity
-  port: '443'
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: China_None_ss_1026
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.138
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_1027
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- cipher: aes-256-cfb
+  name: Ireland_Dublin_ss_1027
+  password: amazonskr05
+  port: '443'
+  server: 3.252.205.48
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_111
@@ -443,19 +433,45 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: China_None_ss_1126
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.138
-  type: ss
+- alterId: '0'
+  cipher: auto
+  name: France_None_vmess_1126
+  network: ws
+  port: '16626'
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
-  name: Ireland_Dublin_ss_1127
-  password: amazonskr05
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  ws-opts:
+    headers:
+      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: France_None_vmess_1127
+  network: ws
+  port: 16622
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 83c25eab-8461-4b6a-b714-f4279535b316
+  ws-opts:
+    headers:
+      Host: a5f19060282ba7516bdd6ce8dd04528b.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: United States_None_trojan_1128
+  password: UQfj7bdfjibTjpUHfg72aew51S7fB32g
   port: '443'
-  server: 3.252.205.48
-  type: ss
+  server: littoral.appagent.net
+  skip-cert-verify: false
+  type: trojan
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -488,8 +504,8 @@ proxy-groups:
   - Hong Kong_None_trojan_1023
   - China_None_ss_1024
   - Hong Kong_Central_vmess_1025
-  - United States_None_trojan_1026
-  - United States_None_vmess_1027
+  - China_None_ss_1026
+  - Ireland_Dublin_ss_1027
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -515,8 +531,9 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - China_None_ss_1124
   - Hong Kong_Central_vmess_1125
-  - China_None_ss_1126
-  - Ireland_Dublin_ss_1127
+  - France_None_vmess_1126
+  - France_None_vmess_1127
+  - United States_None_trojan_1128
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -548,8 +565,8 @@ proxy-groups:
   - Hong Kong_None_trojan_1023
   - China_None_ss_1024
   - Hong Kong_Central_vmess_1025
-  - United States_None_trojan_1026
-  - United States_None_vmess_1027
+  - China_None_ss_1026
+  - Ireland_Dublin_ss_1027
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -575,8 +592,9 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - China_None_ss_1124
   - Hong Kong_Central_vmess_1125
-  - China_None_ss_1126
-  - Ireland_Dublin_ss_1127
+  - France_None_vmess_1126
+  - France_None_vmess_1127
+  - United States_None_trojan_1128
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
