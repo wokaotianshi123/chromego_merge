@@ -433,6 +433,18 @@ proxies:
   server: 121.46.230.138
   type: ss
   udp: true
+- alterId: '0'
+  cipher: auto
+  name: Singapore_Singapore_vmess_1127
+  network: tcp
+  port: '11985'
+  server: board-02.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  xudp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -491,6 +503,7 @@ proxy-groups:
   - China_None_ss_1124
   - Hong Kong_Central_vmess_1125
   - China_None_ss_1126
+  - Singapore_Singapore_vmess_1127
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -549,6 +562,7 @@ proxy-groups:
   - China_None_ss_1124
   - Hong Kong_Central_vmess_1125
   - China_None_ss_1126
+  - Singapore_Singapore_vmess_1127
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
