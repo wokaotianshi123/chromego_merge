@@ -222,20 +222,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: United States_None_ss_1026
-  password: amazonskr05
-  port: '443'
-  server: 63.185.90.235
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: France_Paris_ss_1027
-  password: amazonskr05
-  port: '443'
-  server: 15.237.210.147
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_111
@@ -433,6 +419,43 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: United States_Columbus_ss_1126
+  password: amazonskr05
+  port: 443
+  server: 3.148.195.154
+  type: ss
+- client-fingerprint: chrome
+  name: China_Fuzhou_trojan_1127
+  network: tcp
+  password: 81691dd5-32b9-41ba-b0a9-f32b522d3548
+  port: '58113'
+  server: fj3x.waimaosass.icu
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: Germany_Frankfurt am Main_ss_1128
+  password: amazonskr05
+  port: '443'
+  server: 35.159.113.215
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: France_Paris_ss_1129
+  password: amazonskr05
+  port: '443'
+  server: 13.36.169.164
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: United States_Columbus_ss_1130
+  password: amazonskr05
+  port: '443'
+  server: 3.142.197.111
+  type: ss
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -464,8 +487,6 @@ proxy-groups:
   - United States_None_trojan_1023
   - China_None_ss_1024
   - Hong Kong_Kowloon_vmess_1025
-  - United States_None_ss_1026
-  - France_Paris_ss_1027
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -491,6 +512,11 @@ proxy-groups:
   - United States_None_trojan_1123
   - China_None_ss_1124
   - Hong Kong_Kowloon_vmess_1125
+  - United States_Columbus_ss_1126
+  - China_Fuzhou_trojan_1127
+  - Germany_Frankfurt am Main_ss_1128
+  - France_Paris_ss_1129
+  - United States_Columbus_ss_1130
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -522,8 +548,6 @@ proxy-groups:
   - United States_None_trojan_1023
   - China_None_ss_1024
   - Hong Kong_Kowloon_vmess_1025
-  - United States_None_ss_1026
-  - France_Paris_ss_1027
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -549,6 +573,11 @@ proxy-groups:
   - United States_None_trojan_1123
   - China_None_ss_1124
   - Hong Kong_Kowloon_vmess_1125
+  - United States_Columbus_ss_1126
+  - China_Fuzhou_trojan_1127
+  - Germany_Frankfurt am Main_ss_1128
+  - France_Paris_ss_1129
+  - United States_Columbus_ss_1130
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
